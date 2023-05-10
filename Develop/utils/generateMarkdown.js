@@ -99,7 +99,7 @@ function generateMarkdown(data) {
     ${data.testing}   
 
   ## questions 
-    GitHub Profile: ${data.gitHub}  
+    GitHub Profile: https://github.com/${data.gitHub} 
     If you have any questions please contact me at:${data.email}
 
 `;
