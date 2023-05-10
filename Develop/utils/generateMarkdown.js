@@ -72,12 +72,12 @@ function generateMarkdown(data) {
     ${data.description} 
 
   ## Table of Contents 
-   - Installation(#installation)
-   - Usage
-   - License
-   - Contributing
-   - Tests
-   - Questions  
+   - [Installation](#installation)
+   - [Usage](#usage)
+   - [License](#license)
+   - [Contributing](#contributing)
+   - [Tests](#tests)
+   - [Questions](#questions)  
 
   ## Installation
     ${data.installation}
@@ -99,8 +99,8 @@ function generateMarkdown(data) {
     ${data.testing}   
 
   ## questions 
-    GitHub Profile: https://github.com/${data.gitHub} 
-    If you have any questions please contact me at:${data.email}
+  * GitHub Profile: [GitHub Link](https://github.com/${data.gitHub})
+  *  If you have any questions please contact me at: ${data.email}
 
 `;
 }

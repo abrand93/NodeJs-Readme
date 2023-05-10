@@ -54,7 +54,7 @@ const questions = [{
 
 ];
 
-// TODO: Create a function to write README file
+// TODO: Create a function to write README file This function creates the ReadMe Folder 
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, generateMarkdown(data), err => err ? console.error(err): console.log('ReadMe has been successfully made '))
 }
@@ -64,7 +64,7 @@ function init() {
 inquirer
     .prompt(questions)
     .then(data => {
-        writeToFile('ReadMe', data)
+        writeToFile('README.md', data)
        
         
     })
